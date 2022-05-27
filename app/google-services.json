@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "877249950608",
+    "project_id": "findme-8939c",
+    "storage_bucket": "findme-8939c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877249950608:android:caf01d83553c6e08e8f915",
+        "android_client_info": {
+          "package_name": "com.example.findme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877249950608-s4t5i09vt6kemq04kjk4dc4u7mk0c5kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuj6wUYsW4cjLcXukF8gLvs8kVPr1ZvHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877249950608-s4t5i09vt6kemq04kjk4dc4u7mk0c5kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877249950608:android:3d3fbd8ad35c69c3e8f915",
+        "android_client_info": {
+          "package_name": "com.example.firebaseexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877249950608-s4t5i09vt6kemq04kjk4dc4u7mk0c5kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuj6wUYsW4cjLcXukF8gLvs8kVPr1ZvHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877249950608-s4t5i09vt6kemq04kjk4dc4u7mk0c5kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

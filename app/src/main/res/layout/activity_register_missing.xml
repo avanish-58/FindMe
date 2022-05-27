@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterMissing">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="100dp"
+        android:src="@android:color/background_dark" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload image"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/uploadbtn"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_toRightOf="@+id/uploadbtn"
+        android:layout_alignBottom="@+id/image"
+        android:id="@+id/prog"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/uploadbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-71dp"
+        android:hint="NAME of Missing"
+        android:id="@+id/nameofmissing"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/nameofmissing"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-71dp"
+        android:hint="Address of Missing"
+        android:id="@+id/placeofmissing"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/placeofmissing"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-71dp"
+        android:hint="Phone"
+        android:id="@+id/Phone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/Phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-71dp"
+        android:hint="Age"
+        android:id="@+id/age"/>
+
+
+</RelativeLayout>
