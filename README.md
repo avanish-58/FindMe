@@ -1,5 +1,5 @@
 ### FindMe
-This is an attendance tracker system which uses facial recognition technology for the same purpose.
+This is an android app to find missing people which uses facial recognition technology for the same purpose.
 ### Tech Stack:
 - Firebase, Providing RealTime DataBase and allowing user authentication
 - Skybiometry:-API for face recognition
